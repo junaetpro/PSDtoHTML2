@@ -289,6 +289,18 @@
         --footer_text:12px;
         --section_paddingX:7%;
     }
+    .header_top{
+        height: 30px;
+    }
+
+    .header_top p i{
+        margin: 0 2px;
+    }
+    .header_top p span{
+        margin: 0 2px;
+        font-size: 9px;
+    }
+
     .hero_area .left{
         width: 100%;
     }
@@ -350,10 +362,17 @@
         position: relative;
         height: 250px;
     }
+    footer  .main .box:nth-child(1) i{
+        padding: 3px;
+        border-radius: 2px;
+        margin: 2px;
+        font-size: 14px;
+
+    }
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px){
     :root{
         --normal_text:12px;
         --section_text:20px;
