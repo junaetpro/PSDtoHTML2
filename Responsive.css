@@ -353,7 +353,7 @@
 
 }
 
-@media (max-width: 450px){
+@media (max-width: 500px){
     :root{
         --normal_text:12px;
         --section_text:20px;
